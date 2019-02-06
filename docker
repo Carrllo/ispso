@@ -6,19 +6,19 @@ using namespace std;
 int main()
 {
     double a , b , c;
-    cout << "Podaj a:";
-    cin >> a; 
+    a=2;
+    b=3;
+    c=4;
+    printf ( "a=%d",a);   
     cout << endl;
 
-    cout << "Podaj b:";
-    cin >> b; 
+    printf ( "b=%d",b);   
     cout << endl;
 
-    cout << "Podaj c:";
-    cin >> c; 
+     printf ( "c=%d",c);   
     cout << endl;
 
-    // pow(b,2) ---> b do potÄ™gi 2
+    // pow(b,2) ---> b do potegi 2
     double delta = pow (b , 2) - (4 * a * c);
 
     if (delta < 0)
