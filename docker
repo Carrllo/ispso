@@ -1,0 +1,31 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    double a , b , c;
+    cout << "Podaj a:";
+    cin >> a; 
+    cout << endl;
+
+    cout << "Podaj b:";
+    cin >> b; 
+    cout << endl;
+
+    cout << "Podaj c:";
+    cin >> c; 
+    cout << endl;
+
+    // pow(b,2) ---> b do potÄ™gi 2
+    double delta = pow (b , 2) - (4 * a * c);
+
+    if (delta < 0)
+        cout << "Rownania nie da sie rozwiazac (delta jest ujemna).\n";
+    else cout << "Rownanie da sie rozwiazac (delta dodatnia).\n";
+
+    getchar();
+
+    return 0;
+}
