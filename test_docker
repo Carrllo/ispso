@@ -10,6 +10,7 @@ cout << "Podaj swoje imie..<< endl;
 cin >> name;
 cout <<"podaj nazwisko.."<<endl;    //dadano nazwisko
 cin >> surname;
-cout << "Twoje pierwsze kroki w docker:" <<name<< "!\n";
+cout << "Twoje pierwsze kroki w docker:" << name << surname << "!\n";
+cout << "data aktualizacji 11.11.2019"<<endl;
 return 0;
 }
