@@ -5,9 +5,11 @@ using namespace std;
 
 int main()
 {
-string name;
+string name, surname;
 cout << "Podaj swoje imie..<< endl;
 cin >> name;
+cout <<"podaj nazwisko.."<<endl;    //dadano nazwisko
+cin >> surname;
 cout << "Twoje pierwsze kroki w docker:" <<name<< "!\n";
 return 0;
 }
